@@ -11,7 +11,7 @@
         android:id="@+id/imageView"
         android:layout_width="275dp"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/paccy" />
+        app:srcCompat="@drawable/police" />
 
     <EditText
         android:inputType="text"
