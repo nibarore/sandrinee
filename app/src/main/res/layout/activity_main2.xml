@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/paccy" />
+
+    <EditText
+        android:inputType="text"
+        android:layout_width="279dp"
+        android:layout_height="80dp"
+        android:hint="Enter username"
+        android:id="@+id/Username"
+
+        />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="279dp"
+        android:layout_height="80dp"
+        android:hint="Enter password"
+        android:id="@+id/password"
+
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="279dp"
+        android:layout_height="80dp"
+        android:text="Login"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="347dp"
+        android:onClick="butonClicked"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="279dp"
+        android:layout_height="80dp"
+
+        android:text='Register'
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="267dp"
+        android:padding="15dp"
+        android:onClick="buttonClicked"/>
+
+</LinearLayout>
