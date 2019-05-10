@@ -11,7 +11,7 @@
         android:id="@+id/imageView"
         android:layout_width="275dp"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/police" />
+        app:srcCompat="@drawable/remember" />
 
     <EditText
         android:inputType="text"
@@ -29,14 +29,15 @@
         android:id="@+id/password"
 
         />
+
     <Button
         android:id="@+id/button"
-        android:layout_width="279dp"
-        android:layout_height="80dp"
+        android:layout_width="270dp"
+        android:layout_height="85dp"
+        android:onClick="butonClicked"
         android:text="Login"
         tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="347dp"
-        android:onClick="butonClicked"/>
+        tools:layout_editor_absoluteY="347dp" />
 
     <Button
         android:id="@+id/button2"
